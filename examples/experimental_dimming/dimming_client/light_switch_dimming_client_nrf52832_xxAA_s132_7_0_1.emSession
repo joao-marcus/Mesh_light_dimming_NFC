@@ -1,0 +1,154 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="464" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="src/main.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="552" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="src/main.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="710" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="../../../modules/nrfx/drivers/src/nrfx_nfct.c" useHWbreakpoint="false"/>
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1" radix="16" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;Access"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;Application"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;Bearer"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;Configuration Model"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;Core"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;GATT"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;Health Model"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;Mesh stack"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;nRF_Libraries"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;nRF_Log"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;nRF_NFC"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;nRF_NFC;nRF_Drivers"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;nRF5 SDK"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;Other"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;Provisioning"/>
+  <ProjectSessionItem path="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1;SEGGER RTT"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never">
+   <Watchpoint expression="nrf_error.h" name="nrf_error.h" radix="16" linenumber="49" filename="../../../mesh/gatt/src/mesh_gatt.c"/>
+  </Watches>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../doc/getting_started/SES.md" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="547" useTextEdit="1" useBinaryEdit="0" left="0" path="src/main.c" selected="1" top="518" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="12507" useTextEdit="1" useBinaryEdit="0" left="0" path="include/sdk_config.h" selected="0" top="12487" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="38" useTextEdit="1" useBinaryEdit="0" left="0" path="include/app_config.h" selected="0" top="27" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="202" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/nfc/t4t_lib/nfc_t4t_lib.h" selected="0" top="194" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="61" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/nfc/platform/nfc_platform.h" selected="0" top="72" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="82" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/nfc/platform/nfc_platform.c" selected="0" top="72" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="52" y="42" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../modules/nrfx/drivers/src/nrfx_timer.c" selected="0" top="36" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="100" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../modules/nrfx/drivers/include/nrfx_timer.h" selected="0" top="75" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="72" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/modules/nrfx/drivers/nrfx_common.h" selected="0" top="69" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="99" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../integration/nrfx/legacy/nrf_drv_clock.h" selected="0" top="84" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="123" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../integration/nrfx/legacy/nrf_drv_clock.c" selected="0" top="33" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="58" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/libraries/util/nordic_common.h" selected="0" top="58" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="217" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../mesh/t4t_lib/nfc_t4t_lib.h" selected="0" top="208" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="174" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/libraries/scheduler/app_scheduler.h" selected="0" top="158" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="66" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/libraries/log/nrf_log_default_backends.h" selected="0" top="51" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="53" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/libraries/log/nrf_log_backend_interface.h" selected="0" top="47" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="264" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/libraries/scheduler/app_scheduler.c" selected="0" top="247" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="52" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/libraries/memobj/nrf_memobj.h" selected="0" top="37" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="80" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/libraries/log/nrf_log_ctrl.h" selected="0" top="65" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="133" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/softdevice/common/nrf_sdh_ble.c" selected="0" top="109" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="53" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/libraries/log/src/nrf_log_backend_serial.h" selected="0" top="30" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="901" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/libraries/log/src/nrf_log_frontend.c" selected="0" top="884" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="68" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/libraries/strerror/nrf_strerror.h" selected="0" top="53" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="42" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/libraries/util/app_error_weak.c" selected="0" top="27" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="111" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/modules/nrfx/mdk/ses_startup_nrf52.s" selected="0" top="93" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="125" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/modules/nrfx/mdk/system_nrf52.c" selected="0" top="106" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="169" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/modules/nrfx/mdk/ses_startup_nrf_common.s" selected="0" top="165" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/softdevice/common/nrf_sdh.h" selected="0" top="33" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../common/src/mesh_provisionee.c" selected="0" top="27" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../common/src/ble_softdevice_support.c" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/softdevice/common/nrf_sdh_soc.h" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="54" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../mesh/gatt/include/mesh_gatt.h" selected="0" top="27" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="643" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../integration/nrfx/legacy/nrf_drv_uart.h" selected="0" top="628" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="80" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../integration/nrfx/legacy/nrf_drv_uart.c" selected="0" top="34" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="225" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/modules/nrfx/mdk/nrf52832_peripherals.h" selected="0" top="212" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1111" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/integration/nrfx/legacy/apply_old_config.h" selected="0" top="1097" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="41" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/drivers_nrf/nrf_soc_nosd/nrf_nvic.c" selected="0" top="19" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="48" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/drivers_nrf/nrf_soc_nosd/nrf_soc.c" selected="0" top="15" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="48" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../mesh/gatt/src/mesh_gatt.c" selected="0" top="233" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="41" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../mesh/core/src/transport.c" selected="0" top="14" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="79" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../modules/nrfx/drivers/src/prs/nrfx_prs.c" selected="0" top="47" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="709" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../modules/nrfx/drivers/src/nrfx_nfct.c" selected="0" top="690" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="42" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../modules/nrfx/drivers/src/nrfx_uart.c" selected="0" top="27" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../modules/nrfx/drivers/src/nrfx_uarte.c" selected="0" top="30" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="252" useTextEdit="1" useBinaryEdit="0" left="0" path="light_switch_dimming_client_nrf52832_xxAA_s132_7_0_1.emProject" selected="0" top="205" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="82" useTextEdit="1" useBinaryEdit="0" left="0" path="../../nfc/writable_ndef_msg/main.c" selected="0" top="55" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="730" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/toolchain/cmsis/include/cmsis_gcc.h" selected="0" top="711" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="351" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../SEGGER Embedded Studio for ARM 4.30b/source/thumb_crt0.s" selected="0" top="319" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1765" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../external/rtt/src/SEGGER_RTT.c" selected="0" top="1730" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="515" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../external/rtt/src/SEGGER_RTT_printf.c" selected="0" top="492" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="44" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/libraries/util/app_error_handler_gcc.c" selected="0" top="33" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="63" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/libraries/util/app_error.c" selected="0" top="48" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="53" useTextEdit="1" useBinaryEdit="0" left="0" path="../../common/src/assertion_handler_weak.c" selected="0" top="22" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="211" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/softdevice/common/nrf_sdh.c" selected="0" top="185" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="247" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../mesh/bearer/src/scanner.c" selected="0" top="218" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="271" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../mesh/prov/src/prov_bearer_adv.c" selected="0" top="240" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="157" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../mesh/core/src/fifo.c" selected="0" top="31" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="70" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../mesh/core/src/event.c" selected="0" top="63" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../mesh/core/src/flash_manager.c" selected="0" top="30" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="129" useTextEdit="1" useBinaryEdit="0" left="0" path="../../common/src/app_error_weak.c" selected="0" top="78" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/libraries/util/app_util_platform.c" selected="0" top="39" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1686" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/libraries/fds/fds.c" selected="0" top="1670" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5SDK160098a08e2/components/libraries/atomic/nrf_atomic.c" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/nfc/ndef/generic/record/nfc_ndef_record.c" selected="0" top="144" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="111" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../modules/nrfx/mdk/ses_startup_nrf52.s" selected="0" top="94" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="97" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../mesh/prov/src/prov_provisionee.c" selected="0" top="97" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="101" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../mesh/prov/src/nrf_mesh_prov.c" selected="0" top="76" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="80" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/libraries/fstorage/nrf_fstorage.c" selected="0" top="66" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="66" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/libraries/fstorage/nrf_fstorage_sd.h" selected="0" top="52" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="175" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/boards/boards.h" selected="0" top="170" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../nRF5_SDK_15.0.0_a53641a/components/boards/boards.c" selected="0" top="201" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="103" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../components/nfc/ndef/generic/message/nfc_ndef_msg.c" selected="0" top="66" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="light_switch_dimming_client_nrf52832_xxAA_s132_7.0.1" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="C:/build/HP-NFCL74-JOB1/private/nfc_t4t_lib/isodepmsg.c&#xa;&#xa;C:/build/HP-NFCL74-JOB1/private/nfc_t4t_lib/nfc_t4t_lib.c&#xa;&#xa;C:/build/HP-NFCL74-JOB1/private/nfc_t4t_lib/nfc_t4t_lib_al.c&#xa;" fileDialogInitialDirectory="D:/Programas/SEGGER/nRF5_SDK_15.0.0_a53641a/components/boards" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

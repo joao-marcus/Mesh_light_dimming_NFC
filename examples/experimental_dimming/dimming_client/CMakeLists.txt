@@ -1,0 +1,164 @@
+set(target "light_switch_dimming_client_${PLATFORM}_${SOFTDEVICE}")
+
+add_executable(${target}
+    "${CMAKE_CURRENT_SOURCE_DIR}/src/main.c"
+    "${CMAKE_SOURCE_DIR}/mesh/stack/src/mesh_stack.c"
+    "${CMAKE_SOURCE_DIR}/examples/common/src/mesh_provisionee.c"
+    "${MBTLE_SOURCE_DIR}/examples/common/src/rtt_input.c"
+    "${CMAKE_SOURCE_DIR}/examples/common/src/simple_hal.c"
+    "${CMAKE_SOURCE_DIR}/examples/common/src/mesh_app_utils.c"
+    ${BLE_SOFTDEVICE_SUPPORT_SOURCE_FILES}
+    ${WEAK_SOURCE_FILES}
+    ${MESH_CORE_SOURCE_FILES}
+    ${MESH_BEARER_SOURCE_FILES}
+    ${MESH_GATT_SOURCE_FILES}
+    ${GENERIC_LEVEL_CLIENT_SOURCE_FILES}
+    ${CONFIG_SERVER_SOURCE_FILES}
+    ${HEALTH_SERVER_SOURCE_FILES}
+    ${ACCESS_SOURCE_FILES}
+    ${MESH_APP_TIMER_SOURCE_FILES}
+    ${PROV_PROVISIONEE_SOURCE_FILES}
+    ${PROV_COMMON_SOURCE_FILES}
+    ${PROV_BEARER_ADV_SOURCE_FILES}
+    ${PROV_BEARER_GATT_SOURCE_FILES}
+    ${${PLATFORM}_SOURCE_FILES}
+    ${${nRF5_SDK_VERSION}_SOURCE_FILES}
+"${SDK_ROOT}/modules/nrfx/mdk/gcc_startup_nrf52.S"
+  "${SDK_ROOT}/components/libraries/log/src/nrf_log_backend_rtt.c"
+  "${SDK_ROOT}/components/libraries/log/src/nrf_log_backend_serial.c"
+  "${SDK_ROOT}/components/libraries/log/src/nrf_log_backend_uart.c"
+  "${SDK_ROOT}/components/libraries/log/src/nrf_log_default_backends.c"
+  "${SDK_ROOT}/components/libraries/log/src/nrf_log_frontend.c"
+  "${SDK_ROOT}/components/libraries/log/src/nrf_log_str_formatter.c"
+  "${SDK_ROOT}/components/boards/boards.c"
+  "${SDK_ROOT}/components/libraries/util/app_error.c"
+  "${SDK_ROOT}/components/libraries/util/app_error_handler_gcc.c"
+  "${SDK_ROOT}/components/libraries/util/app_error_weak.c"
+  "${SDK_ROOT}/components/libraries/fifo/app_fifo.c"
+  "${SDK_ROOT}/components/libraries/scheduler/app_scheduler.c"
+  "${SDK_ROOT}/components/libraries/uart/app_uart_fifo.c"
+  "${SDK_ROOT}/components/libraries/util/app_util_platform.c"
+  "${SDK_ROOT}/components/libraries/crc16/crc16.c"
+  "${SDK_ROOT}/components/libraries/fds/fds.c"
+  "${SDK_ROOT}/components/libraries/hardfault/nrf52/handler/hardfault_handler_gcc.c"
+  "${SDK_ROOT}/components/libraries/hardfault/hardfault_implementation.c"
+  "${SDK_ROOT}/components/libraries/util/nrf_assert.c"
+  "${SDK_ROOT}/components/libraries/atomic_fifo/nrf_atfifo.c"
+  "${SDK_ROOT}/components/libraries/atomic/nrf_atomic.c"
+  "${SDK_ROOT}/components/libraries/balloc/nrf_balloc.c"
+  "${SDK_ROOT}/external/fprintf/nrf_fprintf.c"
+  "${SDK_ROOT}/external/fprintf/nrf_fprintf_format.c"
+  "${SDK_ROOT}/components/libraries/fstorage/nrf_fstorage.c"
+  "${SDK_ROOT}/components/libraries/fstorage/nrf_fstorage_nvmc.c"
+  "${SDK_ROOT}/components/libraries/memobj/nrf_memobj.c"
+  "${SDK_ROOT}/components/libraries/ringbuf/nrf_ringbuf.c"
+  "${SDK_ROOT}/components/libraries/strerror/nrf_strerror.c"
+  "${SDK_ROOT}/integration/nrfx/legacy/nrf_drv_clock.c"
+  "${SDK_ROOT}/integration/nrfx/legacy/nrf_drv_uart.c"
+  "${SDK_ROOT}/components/drivers_nrf/nrf_soc_nosd/nrf_nvic.c"
+  "${SDK_ROOT}/modules/nrfx/hal/nrf_nvmc.c"
+  "${SDK_ROOT}/components/drivers_nrf/nrf_soc_nosd/nrf_soc.c"
+  "${SDK_ROOT}/modules/nrfx/soc/nrfx_atomic.c"
+  "${SDK_ROOT}/modules/nrfx/drivers/src/nrfx_clock.c"
+  "${SDK_ROOT}/modules/nrfx/drivers/src/nrfx_nfct.c"
+  "${SDK_ROOT}/modules/nrfx/drivers/src/prs/nrfx_prs.c"
+  "${SDK_ROOT}/modules/nrfx/drivers/src/nrfx_timer.c"
+  "${SDK_ROOT}/modules/nrfx/drivers/src/nrfx_uart.c"
+  "${SDK_ROOT}/modules/nrfx/drivers/src/nrfx_uarte.c"
+  "${PROJ_DIR}/main.c"
+  "${PROJ_DIR}/ndef_file_m.c"
+  "${SDK_ROOT}/external/segger_rtt/SEGGER_RTT.c"
+  "${SDK_ROOT}/external/segger_rtt/SEGGER_RTT_Syscalls_GCC.c"
+  "${SDK_ROOT}/external/segger_rtt/SEGGER_RTT_printf.c"
+  "${SDK_ROOT}/modules/nrfx/mdk/system_nrf52.c"
+  "${SDK_ROOT}/components/nfc/ndef/generic/message/nfc_ndef_msg.c"
+  "${SDK_ROOT}/components/nfc/ndef/generic/record/nfc_ndef_record.c"
+  "${SDK_ROOT}/components/nfc/platform/nfc_platform.c"
+  "${SDK_ROOT}/components/nfc/ndef/uri/nfc_uri_msg.c"
+  "${SDK_ROOT}/components/nfc/ndef/uri/nfc_uri_rec.c"
+
+)
+
+target_include_directories(${target} PUBLIC
+    "${CMAKE_CURRENT_SOURCE_DIR}/include"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../../light_switch/include"
+    "${CMAKE_SOURCE_DIR}/examples/common/include"
+    "${CMAKE_SOURCE_DIR}/external/rtt/include"
+    ${BLE_SOFTDEVICE_SUPPORT_INCLUDE_DIRS}
+    ${GENERIC_LEVEL_CLIENT_INCLUDE_DIRS}
+    ${CONFIG_SERVER_INCLUDE_DIRS}
+    ${HEALTH_SERVER_INCLUDE_DIRS}
+    ${MESH_INCLUDE_DIRS}
+    ${${SOFTDEVICE}_INCLUDE_DIRS}
+    ${${PLATFORM}_INCLUDE_DIRS}
+    ${${BOARD}_INCLUDE_DIRS}
+    ${${nRF5_SDK_VERSION}_INCLUDE_DIRS}
+  "${SDK_ROOT}/components"
+  "${SDK_ROOT}/modules/nrfx/mdk"
+  "${SDK_ROOT}/components/nfc/ndef/generic/message"
+  "${SDK_ROOT}/components/libraries/scheduler"
+  "${SDK_ROOT}/modules/nrfx"
+  "${PROJ_DIR}"
+  "${SDK_ROOT}/components/libraries/fifo"
+  "${SDK_ROOT}/components/nfc/platform"
+  "${SDK_ROOT}/components/libraries/strerror"
+  "${SDK_ROOT}/components/libraries/crc16"
+  "${SDK_ROOT}/components/toolchain/cmsis/include"
+  "${SDK_ROOT}/components/libraries/util"
+  "${SDK_ROOT}/components/libraries/hardfault"
+  "${SDK_ROOT}/components/libraries/balloc"
+  "${SDK_ROOT}/components/nfc/ndef/generic/record"
+  "${SDK_ROOT}/components/libraries/ringbuf"
+  "${SDK_ROOT}/components/libraries/hardfault/nrf52"
+  "${SDK_ROOT}/modules/nrfx/hal"
+  "${SDK_ROOT}/components/libraries/bsp"
+  "${SDK_ROOT}/components/libraries/uart"
+  "${SDK_ROOT}/components/libraries/log"
+  "${SDK_ROOT}/components/libraries/fstorage"
+  "${SDK_ROOT}/components/libraries/experimental_section_vars"
+  "${SDK_ROOT}/integration/nrfx/legacy"
+  "${SDK_ROOT}/components/libraries/delay"
+  "${SDK_ROOT}/external/segger_rtt"
+  "${SDK_ROOT}/components/libraries/atomic_fifo"
+  "${SDK_ROOT}/components/drivers_nrf/nrf_soc_nosd"
+  "${SDK_ROOT}/components/libraries/atomic"
+  "${SDK_ROOT}/components/nfc/ndef/uri"
+  "${SDK_ROOT}/components/boards"
+  "${SDK_ROOT}/components/libraries/memobj"
+  "${SDK_ROOT}/integration/nrfx"
+  "${SDK_ROOT}/components/libraries/fds"
+  "${SDK_ROOT}/components/nfc/t4t_lib"
+  "${SDK_ROOT}/modules/nrfx/drivers/include"
+  "${SDK_ROOT}/external/fprintf"
+  "${SDK_ROOT}/components/libraries/log/src"
+  "../config"
+)
+
+set_target_link_options(${target}
+    ${CMAKE_CURRENT_SOURCE_DIR}/linker/${PLATFORM}_${SOFTDEVICE})
+
+target_compile_options(${target} PUBLIC
+    ${${ARCH}_DEFINES})
+
+target_compile_definitions(${target} PUBLIC
+    ${USER_DEFINITIONS}
+    -DUSE_APP_CONFIG
+    -DCONFIG_APP_IN_CORE
+    ${${PLATFORM}_DEFINES}
+    ${${SOFTDEVICE}_DEFINES}
+    ${${BOARD}_DEFINES})
+
+target_link_libraries(${target}
+    rtt_${PLATFORM}
+    uECC_${PLATFORM})
+
+create_hex(${target})
+add_flash_target(${target})
+
+get_property(target_include_dirs TARGET ${target} PROPERTY INCLUDE_DIRECTORIES)
+add_pc_lint(${target}
+    "${CMAKE_CURRENT_SOURCE_DIR}/src/main.c"
+    "${target_include_dirs}"
+    "${${PLATFORM}_DEFINES};${${SOFTDEVICE}_DEFINES};${${BOARD}_DEFINES}")
+
+add_ses_project(${target})
